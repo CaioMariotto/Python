@@ -1,3 +1,7 @@
+#Pedir para o usuario informar uma velocidade
+#Se essa velocidade ultrapassar 80km/h imprimir na tela que ele foi multado.
+#A multa deve custar RS7.00 por cada KM acima do limite
+
 vel=int(input('Qual a velocidade do veículo: '))
 limite=80
 

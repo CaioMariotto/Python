@@ -1,3 +1,7 @@
+#Fazer o computador escolher aleatoriamente um numero de 0-5
+#Pedir para o usuário informar um numero de 0-5
+#Printar na tela se o numero digitado for igual ou nao ao esoclhido pelo computador.
+
 import random
 
 n0=0
