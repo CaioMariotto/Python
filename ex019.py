@@ -1,3 +1,7 @@
+#Pedir para o usuário informar 4 nomes.
+#Separar o nome utilizando lista
+#Printar na tela a escolha aleatoria do nome.
+
 from random import choice
 nome1=str(input('Digite o primeiro nome: '))
 nome2=str(input('Digite o segundo nome: '))

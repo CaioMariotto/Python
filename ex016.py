@@ -1,3 +1,5 @@
+#Pedir para o usuário informar um numero e informar a parte inteira do numero.
+
 from math import trunc
 num=float(input('Digite um número '))
 print('A parte inteira do numero {} corresponde a {}'.format(num,trunc(num)))

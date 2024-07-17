@@ -1,3 +1,5 @@
+#Pedir para o usuário informar o cateto oposto e o cateto adjacente e imprimir na tela o calculo da hipotenusa.
+
 from math import hypot
 
 '''co=float(input('Digite comprimento do cateto oposto: '))

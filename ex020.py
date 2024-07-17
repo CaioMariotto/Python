@@ -1,3 +1,6 @@
+#escolher aleatoriamente 1 dentre as 4 opçoes de nome.
+#Depois disso, imprimir na tela o resultado.
+
 from random import shuffle
 
 nome1='laura'
