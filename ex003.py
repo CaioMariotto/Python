@@ -1,3 +1,5 @@
+#Pedir para o usuario digitar dois numeros e trazer a soma deles na tela
+
 num1= int (input ('digite um numero '))
 num2= int (input ('digite outro numero '))
 soma=num1+num2

@@ -1,3 +1,5 @@
+#Pedir para o usuário digitar 2 números e trazer na tela a soma, multiplicação, divisão, divisao inteira e potencia.
+
 #nome = str(input('Digite o seu nome '))
 #print('Olá {}'.format(nome))
 #print('Olá {:}'.format(nome))

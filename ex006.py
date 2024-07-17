@@ -1,3 +1,5 @@
+#Pedir um número ao usuárioe depois printar na tela o antecessor e o sucessor, porteriormente printar o dobro, triplo e a raiz quadrada do numero digitado.
+
 n1=int(input('Digite um número: '))
 n2=n1-1
 n3=n1+1

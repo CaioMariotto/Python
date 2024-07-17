@@ -1,3 +1,5 @@
+#Pedir para o usuario informar as 4 notas e printar a media.
+
 n1=float(input('Digite a primeira nota '))
 n2=float(input('Digite a segunda nota '))
 n3=float(input('Digite a terceira nota '))

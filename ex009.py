@@ -1,3 +1,5 @@
+#Pedir para o usuário digital um numero, realizar sua tabuada e jogar na tela o resultado.
+
 n=int(input('Digite um numero '))
 n1=n*1
 n2=n*2
