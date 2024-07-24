@@ -1,4 +1,4 @@
-import datetime
+from datetime import date
 
 '''faça um programa que leia o ano de nascimento do usuario e 
 de acordo com a idade informe:
@@ -6,19 +6,22 @@ de acordo com a idade informe:
 - se é a hora de se alistar
 - se ja passou do tempo do alistamento'''
 
-ano=int(input('Digite seu ano de nascimento: '))
-mes=int(input('Digite seu mes de nascimento: '))
-dia=int(input('Digite seu dia de nascimento: '))
-data=datetime.datetime(ano,mes,dia)
-atual=datetime.datetime.now()
-dif1= data - atual
-dif2= atual - data
+ano_nasciento=int(input('Digite seu ano de nascimento: '))
+def calcular_idade(ano_nascimento):
+    ano_atual=date.today().year
+    return ano_atual - ano_nasciento
 
-if dif1:
-    print('Voce ainda vai se alistar ao exercito.')
-    print('Faltam {} dias para o prazo de alistamento se encerrar.'.format(dif1))
-elif dif2:
-    print('Está na hora de se alistar.')
-else:
-    print('Já passou do tempo de alistamento')
-    print('Faz {} dias que voce deveria ter se alistado.'.format(dif2))
+idade=calcular_idade(ano_nasciento)
+
+def verificar_alistamento(idade):
+
+    if idade < 18:
+        print('Voce ainda vai se alistar ao exercito.')
+        
+    elif idade == 18:
+        print('Está na hora de se alistar.')
+    else:
+        print('Já passou do tempo de alistamento')
+
+
+situação=verificar_alistamento(idade)
